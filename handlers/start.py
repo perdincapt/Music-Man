@@ -11,13 +11,13 @@ async def start(_, message: Message):
             [ 
                 [
                     InlineKeyboardButton(
-                        "📜 Panduan Menggunakan BOT 📜", url="https://t.me/Lunatic0de/20")
+                        "📜 Panduan Menggunakan BOT 📜", url="https://t.me/kntlinfo")
                   ],[
                     InlineKeyboardButton(
-                        "Group Support", url="https://t.me/SharingUserbot"
+                        "Group aing", url="https://t.me/teman_gabuttt"
                     ),
                     InlineKeyboardButton(
-                        "Channel", url="https://t.me/Lunatic0de"
+                        "Channel aing", url="https://t.me/subsajeudahh"
                     )
                 ]
             ]
@@ -32,10 +32,10 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Group Support", url="https://t.me/SharingUserbot"
+                        "Group aing", url="https://t.me/teman_gabuttt"
                     ),
                     InlineKeyboardButton(
-                        "Owner", url="https://t.me/mrismanaziz"
+                        "Owner", url="https://t.me/jamalkntll"
                     )
                 ]
             ]
@@ -49,10 +49,10 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Group Support", url="https://t.me/SharingUserbot"
+                        "Group aing", url="https://t.me/teman_gabuttt"
                     ),
                     InlineKeyboardButton(
-                        "Owner", url="https://t.me/mrismanaziz"
+                        "Owner", url="https://t.me/jamalkntll"
                     )
                 ]
             ]

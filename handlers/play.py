@@ -175,7 +175,7 @@ def r_ply(type_):
         [
             [
                 InlineKeyboardButton('⏹', 'leave'),
-                InlineKeyboardButton('⏸', 'puse'),
+                InlineKeyboardButton('⏸', 'pause'),
                 InlineKeyboardButton('▶️', 'resume'),
                 InlineKeyboardButton('⏭', 'skip')
                 
@@ -348,7 +348,7 @@ async def m_cb(b, cb):
             [
                 [
                     InlineKeyboardButton('⏹', 'leave'),
-                    InlineKeyboardButton('⏸', 'puse'),
+                    InlineKeyboardButton('⏸', 'pause'),
                     InlineKeyboardButton('▶️', 'resume'),
                     InlineKeyboardButton('⏭', 'skip')
                 
@@ -480,10 +480,10 @@ async def play(_, message: Message):
                 ],                     
                 [
                     InlineKeyboardButton(
-                        "Group Support", url="https://t.me/SharingUserbot"
+                        "Grup Owner", url="https://t.me/maribicaraa"
                     ),
                     InlineKeyboardButton(
-                        "Owner Music Man", url="https://instagram.com/mrismanaziz_"
+                        "Owner Bot Musik", url="https://t.me/bintankgede"
                     )
                 ],
                 [       
@@ -614,10 +614,10 @@ async def deezer(client: Client, message_: Message):
              ],                     
              [
                     InlineKeyboardButton(
-                        "Group Support", url="https://t.me/SharingUserbot"
+                        "Grup Owner", url="https://t.me/marbicaraa"
                     ),
                     InlineKeyboardButton(
-                        "Owner Music Man", url="https://instagram.com/mrismanaziz_"
+                        "Owner Musik Bot", url="https://t.me/bintankgede"
                     )
                 ],
              [       
@@ -742,10 +742,10 @@ async def jiosaavn(client: Client, message_: Message):
              ],                     
              [
                 InlineKeyboardButton(
-                        "Group Support", url="https://t.me/SharingUserbot"
+                        "Grup Owner", url="https://t.me/maribicaraa"
                 ),
                 InlineKeyboardButton(
-                        "Owner Music Man", url="https://instagram.com/mrismanaziz_"
+                        "Owner Music Man", url="https://t.me/bintankgede"
                 )
             ],
              [       

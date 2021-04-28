@@ -6,18 +6,18 @@ from config import BOT_NAME as bn
 @Client.on_message(filters.command("start") & filters.private & ~filters.channel)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""Halo 👋! Saya dapat memutar musik dalam obrolan suara Grup Telegram.\n\n✣ Apakah Anda ingin saya memutar musik di obrolan suara grup Telegram Anda? Silakan klik \'📜 Panduan Menggunakan BOT 📜\' tombol di bawah untuk mengetahui bagaimana cara menggunakan saya.\n\n✣ Tambahkan [Assistant Kntl](https://t.me/@assistantkntl) ke grup Anda untuk memutar musik di obrolan suara grup Anda.\n\n Managed With ☕️ By [Male](https://t.me/jamalkntll)""",
+        f"""Halo 👋! Saya dapat memutar musik dalam obrolan suara Grup Telegram.\n\n✣ Apakah Anda ingin saya memutar musik di obrolan suara grup Telegram Anda? Silakan klik \'📜 Panduan Menggunakan BOT 📜\' tombol di bawah untuk mengetahui bagaimana cara menggunakan saya.\n\n✣ Tambahkan [Bintang Musik Assistant](https://t.me/@bintankgede2) ke grup Anda untuk memutar musik di obrolan suara grup Anda.\n\n Managed With ☕️ By [Bintang](https://t.me/bintankgede)""",
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
                     InlineKeyboardButton(
-                        "📜 Panduan Menggunakan BOT 📜", url="https://t.me/kntlinfo")
+                        "📜 Panduan Menggunakan BOT 📜", url="https://telegra.ph/CARA-PENGGUNAAN-BOT-04-28")
                   ],[
                     InlineKeyboardButton(
-                        "Group aing", url="https://t.me/teman_gabuttt"
+                        "Group Owner", url="https://t.me/maribicaraa"
                     ),
                     InlineKeyboardButton(
-                        "Channel aing", url="https://t.me/subsajeudahh"
+                        "Channel Owner", url="https://t.me/coverbuatsendiri"
                     )
                 ]
             ]
@@ -32,10 +32,10 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Group aing", url="https://t.me/teman_gabuttt"
+                        "Group Owner", url="https://t.me/maribicaraa"
                     ),
                     InlineKeyboardButton(
-                        "Owner", url="https://t.me/jamalkntll"
+                        "Owner", url="https://t.me/bintankgede"
                     )
                 ]
             ]
@@ -49,10 +49,10 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Group aing", url="https://t.me/teman_gabuttt"
+                        "Group Owner", url="https://t.me/maribicaraa"
                     ),
                     InlineKeyboardButton(
-                        "Owner", url="https://t.me/jamalkntll"
+                        "Owner", url="https://t.me/bintankgede"
                     )
                 ]
             ]
